@@ -1,13 +1,13 @@
 <template>
   <footer class="relative z-20 p-4 md:p-5 flex flex-col items-center gap-2">
     <div class="flex gap-4 text-sm md:text-base">
-      <a href="#" class="text-gray-400 hover:text-white transition-colors">
+      <a href="https://github.com/osamahaikal" class="text-gray-400 hover:text-white transition-colors">
         <i class="fab fa-github" /> Github
       </a>
-      <a href="#" class="text-gray-400 hover:text-white transition-colors">
+      <a href="https://www.linkedin.com/in/osama-haikal-8ba265205/" class="text-gray-400 hover:text-white transition-colors">
         <i class="fab fa-linkedin" /> LinkedIn
       </a>
-      <a href="#" class="text-gray-400 hover:text-white transition-colors">
+      <a href="https://www.discord.gg/2tnK5QTY" class="text-gray-400 hover:text-white transition-colors">
         <i class="fab fa-discord" /> Discord
       </a>
     </div>

@@ -1,12 +1,13 @@
-# Hello Edge
+# Personal Website
 
 A minimal [Nuxt](https://nuxt.com) starter deployed on the Edge using [NuxtHub](https://hub.nuxt.com).
 
-https://hello.nuxt.dev
+## Credits
 
-<a href="https://hello.nuxt.dev">
-<img src="https://github.com/nuxt-hub/hello-edge/assets/904724/99d1bd54-ef7e-4ac9-83ad-0a290f85edcf" alt="Hello World template for NuxtHub" />
-</a>
+1. inspired reveal component behavior from https://inspira-ui.com/components/blur-reveal
+   without using v-motion
+2. orbit space code from https://inspira-ui.com/components/orbit
+3. Github integration inspired form https://github.com/atinux/my-pull-requests
 
 ## Features
 
