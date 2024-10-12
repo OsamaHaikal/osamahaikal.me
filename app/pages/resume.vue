@@ -16,12 +16,12 @@ const skills = ref([
 
 <template>
   <div class="flex flex-1 flex-col-reverse lg:flex-row items-center lg:items-start justify-center lg:justify-between gap-5">
-    <div class="flex flex-col gap-10">
+    <div class="flex flex-col gap-10 max-w-full">
       <SectionTitle title="Experience" />
       <WorkExperience />
     </div>
 
-    <div class="relative flex h-[400px] w-[435px] flex-col items-center justify-center overflow-hidden rounded-lg bg-background md:shadow-xl">
+    <div class="relative flex h-[400px] w-[360px] flex-col items-center justify-center overflow-hidden rounded-lg bg-background md:shadow-xl">
       <span class="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-slate-800 to-gray-300 bg-clip-text text-center text-6xl font-semibold leading-none text-transparent">
         Skills
       </span>
