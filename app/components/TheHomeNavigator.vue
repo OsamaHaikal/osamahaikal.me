@@ -26,7 +26,7 @@ watch(text, typeText, {
     class="rounded-lg cursor-pointer"
     @click="navigateTo('/')"
   >
-    <div class="font-mono">
+    <div class="text-white font-mono">
       {{ text }}
       <span v-if="isCompleted" class="animate-pulse">▋</span>
     </div>

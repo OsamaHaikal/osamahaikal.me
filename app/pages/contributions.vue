@@ -50,7 +50,7 @@ const projects = computed(() => {
                   :href="repo.html_url"
                   target="_blank"
                 >
-                  <div class="text-xl font-semibold mb-2">{{ repo.name }}</div>
+                  <div class="text-white text-xl font-semibold mb-2">{{ repo.name }}</div>
                   <div class="text-sm text-gray-600">
                     {{ repo.description }}
                   </div>
@@ -73,7 +73,7 @@ const projects = computed(() => {
                 <div class="flex justify-between items-center">
                   <div class="flex items-center gap-2">
                     <img :src="pr.repo.avatar" class="w-8 h-8 rounded-full">
-                    <span class="font-semibold">
+                    <span class="text-white font-semibold">
                       {{ pr.repo.name }}
                     </span>
                     <span class="text-sm text-gray-500 flex items-center">
@@ -99,7 +99,7 @@ const projects = computed(() => {
                   </div>
                 </div>
                 <a
-                  class="flex-auto underline cursor-pointer"
+                  class="text-white flex-auto underline cursor-pointer"
                   :href="pr.url"
                   target="_blank"
                 >

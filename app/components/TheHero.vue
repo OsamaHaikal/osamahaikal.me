@@ -4,7 +4,7 @@
   <div
     class="flex flex-1 flex-col md:flex-row items-center justify-center md:justify-between gap10"
   >
-    <RevealItems class="flex flex-col gap-6 md:gap-10 text-center md:text-start">
+    <RevealItems class="text-white flex flex-col gap-6 md:gap-10 text-center md:text-start">
       <h1 class="text-3xl md:text-5xl font-bold">
         Osama Haikal
       </h1>

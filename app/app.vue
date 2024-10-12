@@ -4,7 +4,7 @@ import '@unocss/reset/tailwind.css'
 
 <template>
   <main
-    class="relative isolate min-h-screen flex flex-col bg-#050505 text-white overflow-hidden text-#0505050e"
+    class="relative isolate min-h-screen flex flex-col bg-#050505 overflow-hidden text-#0505050e"
   >
     <SupportPalestine />
 

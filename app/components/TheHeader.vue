@@ -26,7 +26,7 @@ const navItems = ref<NavItem[]>([
         v-for="item in navItems"
         :key="item.link"
         :to="item.link"
-        class="hover:text-gray-300 transition-colors text-sm md:text-base"
+        class="text-white hover:text-gray-300 transition-colors text-sm md:text-base"
       >
         {{ item.label }}
       </NuxtLink>

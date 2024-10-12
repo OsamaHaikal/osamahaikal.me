@@ -119,7 +119,7 @@ const experiences = ref<Experience[]>([
         {{ experience.date }}
       </p>
       <div class="mt1 flex flex-col gap2">
-        <h3 class="text-lg font-bold">
+        <h3 class="text-white text-lg font-bold">
           {{ experience.title }} @ {{ experience.company }}
         </h3>
         <ul class="list-disc list-inside text-#ccc mt-2 space-y-xs">
